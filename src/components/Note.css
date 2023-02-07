@@ -1,0 +1,50 @@
+.note{
+    background-color: #fef68a;
+    border-radius: 10px;
+    padding: 2rem;
+    min-height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    white-space:pre-wrap;
+}
+
+.note span{
+    word-wrap: break-word;
+}
+
+.note-footer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.new{
+    background-color: #67d7cc;
+}
+
+textarea{
+    border: none;
+    resize: none;
+    background-color: #67d7cc;
+    outline: none;
+    color: aliceblue;
+    width: auto;
+    font-size: 1rem;
+}
+
+.save-btn{
+    border: none;
+    border-radius: 15px;
+    padding: 8px 10px;
+}
+
+.save-btn:hover{
+    cursor: pointer;
+    background-color:bisque;
+}
+
+.delete-icon{
+    cursor: pointer;
+}

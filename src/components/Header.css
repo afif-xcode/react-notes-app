@@ -1,0 +1,30 @@
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header button{
+    padding: 10px;
+    border: none;
+    border-radius: 20px;
+    background-color: black;
+    color: #fff;
+}
+
+.header button:hover{
+    cursor: pointer;
+}
+
+.dark-mode{
+    background-color: black;
+}
+
+.dark-mode h1{
+    color: #fff;
+}
+
+.dark-mode button{
+    background-color: #fff;
+    color:black ;
+}
